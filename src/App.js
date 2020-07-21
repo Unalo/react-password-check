@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 var zxcvbn = require('zxcvbn');
+
 class App extends React.Component {
   constructor(props) {
     super(props);
